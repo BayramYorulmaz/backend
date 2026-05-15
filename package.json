@@ -2,12 +2,10 @@
   "name": "leaderboard-backend",
   "version": "1.0.0",
   "description": "Leaderboard API",
-  "main": "dist/main.js",
+  "main": "server.js",
   "scripts": {
-    "build": "cd api && npm run build",
-    "start": "cd api && npm run start:prod",
-    "start:dev": "cd api && npm run start:dev",
-    "start:debug": "cd api && npm run start:debug"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
